@@ -59,7 +59,7 @@ import { AuthProvider } from "./context/AuthContext";
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <ThemeProvider defaultTheme="light" storageKey="koravo-theme">
+    <ThemeProvider defaultTheme="dark" storageKey="koravo-theme">
       <IntentProvider>
         <DecisionProvider>
           <TooltipProvider>
